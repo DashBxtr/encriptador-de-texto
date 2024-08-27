@@ -8,6 +8,7 @@ i -> imes
 a -> ai
 o -> ober
 u -> ufat
+
 El objetivo es proporcionar una herramienta básica de cifrado para fines educativos o de entretenimiento.
 
 Funcionalidades
