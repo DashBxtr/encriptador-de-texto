@@ -77,8 +77,6 @@ btnCopiar.addEventListener("click", ()=>{
     navigator.clipboard.writeText(texto.value);
 
     msjInfo.innerHTML = "";
-
-    // textArea.value = "";
     textArea.style.height = "auto";
     if (window.matchMedia("(min-width: 851px)").matches) {
         guy.style.display = "block";
