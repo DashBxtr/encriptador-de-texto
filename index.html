@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="./imagenes/Logo.png" alt="logo-alura" class="logo">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="cont-1">
+                <textarea id="textArea" class="text-area" placeholder="Ingresa el texto"></textarea>
+                <div class="pie-text">
+                    <img src="./imagenes/exclamation.svg">
+                    <span class="msj">Solo letras minúsculas y sin tildes</span>   
+                    <div class="btn">           
+                        <button id="btnEncrip" class="btn-encrip">Encriptar</button>
+                        <button id="btnDesencrip" class="btn-desencrip">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="cont2" class="cont-2 action">
+                <img id="guy" class="guy" src="./imagenes/Muñeco.svg">
+                <textarea id="msjInfo" class="msj-info action">Ningún mensaje encontrado</textarea>
+                <p id="msj" class="msj">Ingresa el texto que desees encripar o desencriptar.</p>
+                <button id="btnCopiar" class="btn-copiar">Copiar</button>
+            </div>
+        </div>    
+    </main>
+<script src="./script.js"></script>
+</body>
+</html>
