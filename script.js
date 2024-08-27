@@ -78,10 +78,17 @@ btnCopiar.addEventListener("click", ()=>{
 
     msjInfo.innerHTML = "";
 
+    // textArea.value = "";
+    textArea.style.height = "auto";
+    // msjInfo.innerHTML = "";
+    // cont2.classList.remove('action');
+    // guy.classList.remove("block");
+    // msjInfo.placeholder = "HOLAAA"
     guy.style.display = "block";
     msj.style.display = "block";
     btnCopiar.style.display = "none";
     cont2.classList.remove("action");
     msjInfo.classList.remove("action");
+    msjInfo.placeholder = "Ningún texto fue encontrado"
     textArea.focus();
 })

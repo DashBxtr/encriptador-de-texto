@@ -8,10 +8,15 @@
 .header{
     width: 90%;
     margin: auto;
+    margin: auto;
+	display: flex;
+	align-items: center;
+	gap: .5em;
 }
 .logo{
     margin-top: 40px;
     border: white;
+    min-height: 40px;
 }
 
 /* main */
@@ -92,13 +97,14 @@
     align-items: center;
     
 }
-.cont-2.action{
+.action{
     justify-content: space-between;
 
 }
 
 .guy{
-    width: 100%;
+    min-width: 230px;
+	width: 100%;
 }
 
 .msj-Info.action{
